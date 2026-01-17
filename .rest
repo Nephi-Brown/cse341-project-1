@@ -1,0 +1,6 @@
+### Get all users
+GET https://cse341-project-1-jfyp.onrender.com/users
+
+### Create a user
+GET https://cse341-project-1-jfyp.onrender.com/users/696b094ac238aa46678cd18f
+
