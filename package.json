@@ -1,0 +1,23 @@
+{
+  "name": "cse341-project-1",
+  "version": "1.0.0",
+  "description": "My First Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nephi-Brown/cse341-project-1.git"
+  },
+  "author": "Nephi Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nephi-Brown/cse341-project-1/issues"
+  },
+  "homepage": "https://github.com/Nephi-Brown/cse341-project-1#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
