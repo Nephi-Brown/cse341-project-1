@@ -8,8 +8,7 @@
   "host": "https://cse341-project-1-jfyp.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https",
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
