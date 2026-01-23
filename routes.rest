@@ -2,20 +2,20 @@
 GET http://localhost:3000/users
 
 ### Get a user
-GET http://localhost:3000/users
+GET http://localhost:3000/users/696b094ac238aa46678cd18f
 
-### Create a user
+### Create a contact
 POST http://localhost:3000/users HTTP/1.1
 content-type: application/json
 
 {
-  "email": "ashely@example.com",
-  "username": "ashley@test.com",
-  "name": "Cheese",
+  "email": "test5@example.com",
+  "username": "test5@test.com",
+  "name": "Hello4",
   "ipaddress": "94.121.163.63"
 }
 
-### PUT a user
+### PUT a contact
 PUT http://localhost:3000/users/696b094ac238aa46678cd18f HTTP/1.1
 content-type: application/json
 
@@ -25,3 +25,6 @@ content-type: application/json
   "name": "Hello",
   "ipaddress": "94.121.163.63"
 }
+
+### DELETE a contact
+DELETE http://localhost:3000/users/6973e77ac17a81f885417b85 HTTP/1.1
