@@ -1,6 +1,27 @@
 ### Get all users
-GET https://cse341-project-1-jfyp.onrender.com/users
+GET http://localhost:3000/users
+
+### Get a user
+GET http://localhost:3000/users/696b094ac238aa46678cd18f
 
 ### Create a user
-GET https://cse341-project-1-jfyp.onrender.com/users/696b094ac238aa46678cd18f
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
 
+{
+  "email": "ashely@example.com",
+  "username": "ashley@test.com",
+  "name": "Cheese",
+  "ipaddress": "94.121.163.63"
+}
+
+### PUT a user
+PUT http://localhost:3000/users/696b094ac238aa46678cd18f HTTP/1.1
+content-type: application/json
+
+{
+  "email": "test@example.com",
+  "username": "test@test.com",
+  "name": "Hello",
+  "ipaddress": "94.121.163.63"
+}
